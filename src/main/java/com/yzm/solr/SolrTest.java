@@ -38,11 +38,11 @@ public class SolrTest {
     public void test(){
         SolrInputDocument solrInputDocument = new SolrInputDocument();
         solrInputDocument.addField("id","11");
-        solrInputDocument.addField("name","热卖国产手机");
-        solrInputDocument.addField("price","1999");
+        /*solrInputDocument.addField("name","热卖国产手机");
+        solrInputDocument.addField("price","1999");*/
 
-        solrTemplate.saveDocument("testcore",solrInputDocument);
-        solrTemplate.commit("testcore");
+        solrTemplate.saveDocument("gettingstarted",solrInputDocument);
+        solrTemplate.commit("gettingstarted");
     }
 
     @Test

@@ -1,4 +1,5 @@
 spring:
   data:
     solr:
-      host: http://192.168.31.61:8983/solr
+      zk-host: 192.168.31.61:9983
+#      host: http://192.168.31.61:8983/solr
